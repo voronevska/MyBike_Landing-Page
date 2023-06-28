@@ -1,0 +1,32 @@
+{
+  "name": "mybike_landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/styles/main.scss dist/style.css",
+    "start": "parcel src/index.html --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronevska/MyBike_Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voronevska/MyBike_Landing-Page/issues"
+  },
+  "homepage": "https://github.com/voronevska/MyBike_Landing-Page#readme"
+}
